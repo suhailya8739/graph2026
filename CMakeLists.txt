@@ -112,10 +112,12 @@ add_executable(
   include/graph.hpp
   include/iterators.hpp
   include/oriented_graph.hpp
+  include/stoer_wagner_min_cut.hpp
   include/weighted_graph.hpp
   include/weighted_oriented_graph.hpp
   methods/main.cpp
   methods/methods.hpp
+  methods/stoer_wagner_min_cut_method.cpp
 )
 
 ####################################################################
@@ -138,12 +140,14 @@ add_executable(
   include/graph.hpp
   include/iterators.hpp
   include/oriented_graph.hpp
+  include/stoer_wagner_min_cut.hpp
   include/weighted_graph.hpp
   include/weighted_oriented_graph.hpp
   tests/graph_test.cpp
   tests/io.hpp
   tests/main.cpp
   tests/oriented_graph_test.cpp
+  tests/stoer_wagner_min_cut_test.cpp
   tests/test.hpp
   tests/test_core.cpp
   tests/test_core.hpp

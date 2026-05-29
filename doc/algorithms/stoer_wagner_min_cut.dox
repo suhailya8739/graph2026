@@ -1,0 +1,28 @@
+/*!
+
+@file stoer_wagner_min_cut.dox
+@author Ilya Sukharev
+
+@page stoer_wagner_min_cut Алгоритм нахождения минимального разреза
+
+@section stoer_wagner_min_cut_algo Описание алгоритма
+
+Алгоритм Штора-Вагнера находит глобальный минимальный разрез во взвешенном
+неориентированном графе с неотрицательными весами рёбер.
+
+Алгоритм реализован в функции graph::StoerWagnerMinCut().
+
+*/
+
+
+/*!
+@fn graph::StoerWagnerMinCut(const GraphType& graph)
+
+Функция реализует алгоритм нахождения минимального разреза, описанный в разделе
+@ref stoer_wagner_mincut сайта e-maxx.ru.
+
+Время работы алгоритма
+\f$
+O(V^3)
+\f$.
+*/

@@ -7,4 +7,5 @@
 
 Список реализованных алгоритмов:
 
+- \subpage stoer_wagner_mincut
 */
