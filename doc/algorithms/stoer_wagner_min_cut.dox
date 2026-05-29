@@ -19,7 +19,7 @@
 @fn graph::StoerWagnerMinCut(const GraphType& graph)
 
 Функция реализует алгоритм нахождения минимального разреза, описанный в разделе
-@ref stoer_wagner_mincut сайта e-maxx.ru.
+@ref stoer_wagner_min_cut
 
 Время работы алгоритма
 \f$
